@@ -1,0 +1,3 @@
+int main(int argc, char** argv) { 
+    fopen(strncat("/home/", argv[2], 50), "wb+"); 
+}
